@@ -1,0 +1,300 @@
+/*COUTURIER CYRIL p1203367 et QUENTIN DARVES-BLANC p1206236 */
+header{
+width:50%;
+margin-left:25%;
+margin-top:0%;
+float :top;
+height: 10%;
+border-left:2px solid #000000; 
+border-right:2px solid #000000;
+border-bottom:2px solid #000000;
+border-top:2px solid #000000;
+border-radius: 30px;
+text-align : center;
+font-weight : bolder;
+background-color : #ffffff;
+color : #000000;
+
+
+}
+
+.logo
+{
+	margin-top:3%;
+	float:left;
+	margin-left: 2%;
+}
+
+footer{
+width:50%;
+height:10%;
+margin-bottom: 0%;
+border-left:2px solid #000000; 
+border-right:2px solid #000000;
+border-bottom:2px solid #000000;
+border-top:2px solid #000000;
+border-radius: 70px;
+text-align : center;		
+font-weight : bolder;
+background-color: #ffffff;
+color : #000000;
+float:bottom;
+margin-left:25%;
+
+
+}
+
+
+.sec{
+width:15%;
+padding:10px;
+max-height:300px;
+border-left:4px solid #000000; 
+border-right:4px solid #000000;
+border-bottom:4px solid #000000;
+border-top:4px solid #000000;
+text-align : center;
+font-weight : bolder;
+background-color: #ffffff;
+color : #000000;
+float: left;
+margin-bottom: 0%;
+overflow: auto;
+
+
+}
+
+
+
+
+
+.article1
+{
+width:65%;
+height:auto;
+margin-top:3%;
+margin-left:18%;
+padding:10px;
+border-left:4px solid #000000; 
+border-right:4px solid #000000;
+border-bottom:4px solid #000000;
+font-weight : bolder;
+background-color: #ffffff;
+color : #000000;
+border-top:4px solid #000000;
+margin-bottom: 3.3%;
+
+}
+
+
+.chgt
+
+{
+width:65%;
+height:80%;
+margin-top:3%;
+margin-left:21%;
+padding:10px;
+border-left:4px solid #000000; 
+border-right:4px solid #000000;
+border-bottom:4px solid #000000;
+font-weight : bolder;
+background-color: #ffffff;
+color : #000000;
+border-top:4px solid #000000;
+margin-bottom: 2%;
+}
+
+.foot
+{
+
+min-height:25em;
+
+}
+
+
+
+.menu{
+color : #000000;
+transition : all 1s linear;
+
+}
+
+.menu:hover
+{
+color:#1e7fcb;
+}
+
+
+ul#menu_horizontal li { 
+display : inline;
+padding : 0 1em; /* Pour espacer les boutons entre eux */
+list-style-type : none; /* Sans ça les puces se placent n'importe où */
+}
+
+.bouton_gauche{
+float : left;
+
+}
+
+.bouton_droit{
+float : right;
+}
+
+a:visited{
+text-decoration: none;
+color: black;
+}
+
+a:link
+{
+	text-decoration: none;
+	color:black;
+}
+
+
+body 
+{
+
+width:auto;
+background-image : url('images/Sans titre3.png');
+background-attachment: fixed;
+
+}
+
+label
+{
+	display: block;
+    width:300px;
+	float: left;
+
+}
+
+
+
+article h1
+{
+text-align: center;
+}
+
+.effet_op
+{
+	transition : all 1s linear; /*Transition permet d'effectuer des effets un peu dynamiques . all désigne les éléments affectés . 1s désigne le temps pendant lequel c'est effectué . linear représente le type de fonction utilisé pour le réaliser*/
+	font-family:'alpha_echoregular';
+	font-size: 250%;
+	color:rgba(70,50,152,1);
+
+}
+
+.effet_op:hover
+{
+	color:rgba(255,120,60,1); 
+
+}
+
+
+
+a.true img
+{
+	height: 0; 
+	width: 0; 
+	border-width: 0;
+}
+
+a.true:hover img
+{
+
+	position: absolute;
+    top: 55%;
+    left: 45%; 
+    height: 180px; 
+    width: 150px;
+
+}
+
+a#test img
+{
+	height: 0; 
+	width: 0; 
+	border-width: 0;
+
+}
+
+a#test:hover img
+{
+	position: absolute;
+    top: 55%;
+    left: 45%; 
+    height: 180px; 
+    width: 150px;
+
+}
+
+.true
+{
+	color : blue;
+}
+
+.spe2
+{
+	color : black;
+}
+
+.bouton_style
+{
+	border: 2px solid black;
+	height : 20px;
+	width:100px;
+	background-color: #0099ff;
+	color : black;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px ;
+}
+
+.bouton_style:hover
+{
+	background-color: rgba(70,50,152,1);
+	color: white;
+}
+
+input:hover
+{
+	background-color: black;
+	color: white;
+}
+
+.souligne
+{
+text-decoration: underline;
+color:rgba(70,50,152,1);
+font-weight:bolder;
+text-align: center;
+font-size:120%;
+}
+
+aside
+{
+	margin-top: 41px;
+	margin-bottom: 100px;
+}
+
+.centre
+{
+	text-align: center;
+}
+
+
+
+/* Rajoute une nouvelle police qui marche sous tout les navigateurs */
+@font-face {
+    font-family: 'alpha_echoregular';
+    src: url('alpha_echo-webfont.eot');
+    src: url('alpha_echo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('alpha_echo-webfont.woff') format('woff'),
+         url('alpha_echo-webfont.ttf') format('truetype'),
+         url('alpha_echo-webfont.svg#alpha_echoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
